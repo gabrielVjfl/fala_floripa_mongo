@@ -1,0 +1,148 @@
+body {
+  background-repeat: repeat;
+ background-color: rgb(0, 195, 255);
+background-image: url('./img/wp4201651.jpg');
+height: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+h1 {
+  margin-top: -170px;
+  color: white;
+  margin-left: 780px;
+  font-size: 45pt;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: lighter;
+  animation-name: titulos;
+  animation-duration: 3s;
+  animation-delay: 0.4s;
+}
+p {
+  margin-left: 440px;
+  font-size: 16pt;
+  color: white;
+  animation-name: titulos;
+  animation-duration: 3s;
+  animation-delay: 0.4s;
+}
+
+#template2 {
+  height: 1000px;
+  width: 700px;
+  background-color: rgb(0, 0, 0);
+  border: 4px solid rgb(8, 47, 223);
+  margin-left: 600px;
+  border-radius: 6px;
+  margin-top: -40px;
+}
+label {
+  color: white;
+  margin-left: 10px;
+  font-size: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+}
+#nome {
+  width: 400px;
+}
+#lbairro {
+  margin-left: 358px;
+  position: absolute;
+  margin-top: -100px;
+}
+#idade {
+  width: 170px;
+  margin-left: 450px;
+  margin-top: -40px;
+}
+#lidade {
+  margin-left: 450px;
+  margin-top: -75px;
+  position: absolute;
+}
+#email {
+  width: 320px;
+}
+input {
+  margin-left: 10px;
+}
+select {
+  margin-left: 10px;
+}
+textarea {
+  margin-left: 10px;
+}
+
+#bairro {
+  width: 330px;
+  margin-left: 357px;
+  margin-top: -63px;
+}
+#problemaprincipal {
+  width: 500px;
+}
+
+
+
+#btn {
+ 
+ 
+  font-size: 19px;
+  border: 2px solid black;
+  margin-left: 10px;
+  margin-top: 10px;
+  height: 60px;
+  width: 200px;
+  font-size: 23px;
+  transition-duration: 1s;
+  background-color: black;
+  color: yellow;
+  border: 3px solid purple;
+
+}
+#btn:hover {
+background-color: yellow;
+color: black;
+border: 3px solid green;
+transition-duration: 1s ;
+
+}
+form {
+  animation-name: entrada;
+  animation-duration: 3s;
+  animation-delay: 0.5s;
+  
+}
+@keyframes entrada {
+from {
+  opacity: 0;
+transform: translateX(-45%);
+}
+to {
+opacity: 1;
+transform: translateX(0%);
+}
+}
+@keyframes titulos {
+  from {
+   opacity: 0;
+   transform: translateY(-60%);
+  }
+  to {
+   opacity: 1;
+   transform: translateY(0%);
+   
+  }
+}
+#img2 {
+  margin-left: 1610px;
+}
+#img1 {
+ margin-top: -160px;
+}
+
+
+
